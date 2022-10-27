@@ -3,7 +3,7 @@
 }
 
 :root {
-  background: #528;
+  background: #111;
   color: thistle;
 }
 
@@ -13,33 +13,33 @@
 }
 
 [data-raiz="2"] {
-  color: #222;
+  color: #212;
   background: pink;
+  background: peru;
 }
 
 [data-raiz="3"] {
   color: #003;
   background: #ed3;
-  background: orchid;
+  background: #ec0;
 }
 
 [data-raiz="4"] {
   color: #404;
-  background: seashell;
   background: sandybrown;
   background: coral;
 }
 
 [data-raiz="5"] {
   color: #212;
-  background: palevioletred;
-  background: pink;
+  background: orange;
   background: skyblue;
 }
 
 [data-raiz="6"] {
-  color: #222;
-  background: seagreen;
+  color: #101;
+  background: blueviolet;
+  background: springgreen;
 }
 
 [data-raiz="7"] {
@@ -50,6 +50,7 @@
 [data-raiz="8"] {
   color: #323;
   background: mistyrose;
+  background: darkorchid;
 }
 
 [data-raiz="9"] {
@@ -227,18 +228,11 @@ footer {
   }
 }
 
-* {
-  transition:
-    30ms color,
-    50ms filter,
-    80ms background;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   * {
     transition:
       30ms color,
       50ms filter,
-      80ms background;
+      80ms background-color;
   }
 }
