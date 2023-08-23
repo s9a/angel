@@ -3,60 +3,61 @@
 }
 
 :root {
-  background: #111;
+  background: indigo;
   color: thistle;
 }
 
 [data-raiz="1"] {
-  color: #111;
+  color: indigo;
   background: hotpink;
 }
 
 [data-raiz="2"] {
-  color: #212;
-  background: pink;
-  background: peru;
+  color: indigo;
+  background: sandybrown;
 }
 
 [data-raiz="3"] {
-  color: #003;
+  color: indigo;
   background: #ed3;
   background: #ec0;
+  background: khaki;
 }
 
 [data-raiz="4"] {
-  color: #404;
+  color: indigo;
   background: sandybrown;
   background: coral;
+  background: salmon;
 }
 
 [data-raiz="5"] {
-  color: #212;
+  color: indigo;
   background: orange;
-  background: skyblue;
+  background: orangered;
+  background: deepskyblue;
 }
 
 [data-raiz="6"] {
-  color: #101;
-  background: blueviolet;
-  background: springgreen;
+  color: indigo;
+  background: mediumspringgreen;
+  background: turquoise;
 }
 
 [data-raiz="7"] {
-  color: #223;
+  color: #213;
   background: skyblue;
 }
 
 [data-raiz="8"] {
-  color: #323;
-  background: mistyrose;
-  background: darkorchid;
+  color: #213;
+  background: plum;
 }
 
 [data-raiz="9"] {
-  color: #333;
-  background: beige;
+  color: #213;
   background: palevioletred;
+  background: violet;
 }
 
 ::selection {
@@ -96,18 +97,18 @@
 }
 
 :focus  {
-  filter: hue-rotate(60deg);
+  filter: hue-rotate(9deg);
   outline-color: thistle;
   outline-style: solid;
   outline-width: thick;
 }
 
 :active {
-  filter: hue-rotate(240deg);
+  filter: hue-rotate(18deg);
 }
 
 :invalid {
-  filter: hue-rotate(90deg);
+  filter: hue-rotate(36deg);
 }
 
 html {
