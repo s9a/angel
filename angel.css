@@ -146,28 +146,14 @@ button {
   min-width: 5ex;
 }
 
-i {
-  font-style: inherit;
-  font-weight: bolder;
+[href*=numb] { 
+  font-size: 1.236rem;
 }
 
-address {
-  font: inherit;
-  margin: 0;
-}
-
-small,
-address {
- font-weight: 300;
-}
-
-h3 { line-height: normal; font-size: 1.333rem }
-h2 { line-height: normal; font-size: 1.666rem }
+h3 { line-height: normal; font-size: 1.236rem }
+h2 { line-height: normal; font-size: 1.618rem }
 h1 { line-height: normal; font-size: 2rem }
 h2 a { font-weight: 400 }
-h1 i { font-size: .666em; font-weight: lighter }
-small { font-size: .666em; line-height: 1 }
-small:first-of-type { font-size: .8em }
 label { line-height: 1.5; font-size: 2rem }
 output { font-weight: 500 }
 b { font-weight: 700 }
